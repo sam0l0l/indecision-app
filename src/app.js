@@ -6,9 +6,20 @@ console.log(square(3));
 console.log(add(1, 2)); 
 console.log(subtract(100, 2));  */
 
-import isSenior, { isAdult, canDrink } from './person.js';
+/* import isSenior, { isAdult, canDrink } from './person.js';
 
 console.log(isAdult(17));
 console.log(canDrink(23));
 
-console.log(isSenior(64));
+console.log(isSenior(64)); */
+/* 
+import validator from 'validator';
+
+console.log(validator.isEmail('hi@sam.virallo.vin')); */
+
+
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const template = React.createElement('p', {}, 'testing 123');
+ReactDOM.render(template, document.getElementById('app'));
