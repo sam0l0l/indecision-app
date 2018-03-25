@@ -21,5 +21,5 @@ console.log(validator.isEmail('hi@sam.virallo.vin')); */
 import React from 'react';
 import ReactDOM from 'react-dom';
 
-const template = React.createElement('p', {}, 'testing 123');
+const template = <p>yada yada this is jsx</p>;
 ReactDOM.render(template, document.getElementById('app'));
